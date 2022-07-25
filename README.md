@@ -1,7 +1,7 @@
-Leave_Classification
+Leave Classification
 ==============================
 
-A short description of the project.
+The goal of this project is to automate the process of Flavia recognition using a leaf image as an input. The input to the system is an image of a leaf and the output is the name of the plant species to which it belongs. It reproduced the project <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. 
 
 Project Organization
 ------------
@@ -43,8 +43,8 @@ Project Organization
     │   │
     │   ├── models         <- Scripts to train models and then use trained models to make
     │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
+    │   │   ├── run_prediction_prod.py
+    │   │   └── train_model_prod.py
     │   │
     │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
     │       └── visualize.py

@@ -1,3 +1,0 @@
-feature,fold,l2_rate,dropout,kfold_file
-color,1,1.0,0.5,data/external/Dataset_10FoldCV_indexed.csv
-texture,1,0.0001,0.5,data/external/Dataset_10FoldCV_indexed.csv
