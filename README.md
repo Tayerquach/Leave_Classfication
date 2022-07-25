@@ -123,13 +123,15 @@ python3 src/models/train_model_prod.py
 The models will be saved in `models/prod_models`.
 
 ## 2. Prediction
-2.1. Run `Jupyter Notebook` in Browser.
+2.1. Add leaf images needed for prediction into `data/external/testing`.
 
-2.2. Open `notebooks/predicted_image` in Jupyter Notebook.
+2.2. Run `Jupyter Notebook` in Browser.
 
-2.3. Run all the Cells one by one. In the cell #4, we need to select image file (one or multiple files).
+2.3. Open `notebooks/predicted_image` in Jupyter Notebook.
 
-2.4. The final results will be displayed as the example below.
+2.4. Run all the Cells one by one. In the cell #4, we need to select image file (one or multiple files).
+
+2.5. The final results will be displayed as the example below.
 
 <img src="reports/figures/prediction_results.png" alt="drawing" width="350"/>
 
