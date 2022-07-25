@@ -77,17 +77,17 @@ qthelp:
 	@echo
 	@echo "Build finished; now you can run "qcollectiongenerator" with the" \
 	      ".qhcp project file in $(BUILDDIR)/qthelp, like this:"
-	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/leave_classification.qhcp"
+	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/leave_recognition.qhcp"
 	@echo "To view the help file:"
-	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/leave_classification.qhc"
+	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/leave_recognition.qhc"
 
 devhelp:
 	$(SPHINXBUILD) -b devhelp $(ALLSPHINXOPTS) $(BUILDDIR)/devhelp
 	@echo
 	@echo "Build finished."
 	@echo "To view the help file:"
-	@echo "# mkdir -p $$HOME/.local/share/devhelp/leave_classification"
-	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/leave_classification"
+	@echo "# mkdir -p $$HOME/.local/share/devhelp/leave_recognition"
+	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/leave_recognition"
 	@echo "# devhelp"
 
 epub:

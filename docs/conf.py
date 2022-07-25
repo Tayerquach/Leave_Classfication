@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Leave_Classification documentation build configuration file, created by
+# leave-classification documentation build configuration file, created by
 # sphinx-quickstart.
 #
 # This file is execfile()d with the current directory set to its containing dir.
@@ -41,7 +41,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Leave_Classification'
+project = u'leave-classification'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -164,7 +164,7 @@ html_static_path = ['_static']
 # html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'leave_classificationdoc'
+htmlhelp_basename = 'leave_recognitiondoc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -184,8 +184,8 @@ latex_elements = {
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
     ('index',
-     'leave_classification.tex',
-     u'Leave_Classification Documentation',
+     'leave_recognition.tex',
+     u'leave-classification Documentation',
      u"Boi Mai Quach", 'manual'),
 ]
 
@@ -215,7 +215,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'leave_classification', u'Leave_Classification Documentation',
+    ('index', 'leave_recognition', u'leave-classification Documentation',
      [u"Boi Mai Quach"], 1)
 ]
 
@@ -229,9 +229,9 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    ('index', 'leave_classification', u'Leave_Classification Documentation',
-     u"Boi Mai Quach", 'Leave_Classification',
-     'A short description of the project.', 'Miscellaneous'),
+    ('index', 'leave_recognition', u'leave-classification Documentation',
+     u"Boi Mai Quach", 'leave-classification',
+     'A machine learning project for data science', 'Miscellaneous'),
 ]
 
 # Documents to append as an appendix to all manuals.
