@@ -116,7 +116,7 @@ python3 src/visualization/visualize.py
 # Production
 Another project's objective is buiding an automate process of plant recognition. We keep the same data, feature collection and preprocessing step as the section [Reproduction](#reproduction). The main change here is building models.
 
-## 1. Building model
+## 1. Training model
 ```console 
 python3 src/models/train_model_prod.py
 ```
